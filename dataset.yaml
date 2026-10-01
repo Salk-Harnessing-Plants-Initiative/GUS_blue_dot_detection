@@ -1,0 +1,5 @@
+names:
+- dot
+nc: 1
+train: /home/jovyan/groot-data/Lin_Wang/GUS/labelme_GUS_21imgs/YOLODataset_crop/images/train
+val: /home/jovyan/groot-data/Lin_Wang/GUS/labelme_GUS_21imgs/YOLODataset_crop/images/val

@@ -1,0 +1,23 @@
+name: yolo82
+
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+
+
+dependencies:
+  - python=3.9
+  - ipykernel
+  - pip
+  - pip:
+    - matplotlib
+    - pandas
+    - seaborn
+    - scikit-learn
+    - opencv-python-headless
+    - ultralytics
+    - git+https://github.com/ultralytics/ultralytics.git@main
+    - torch
+    # - labelme2yolo
+    - git+https://github.com/linwang9926/labelme2yolo.git
